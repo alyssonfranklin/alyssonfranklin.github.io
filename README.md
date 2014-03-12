@@ -19,6 +19,5 @@ function showContactInfo(name, user, company, tld, plus) {
 }
 
 showContactInfo('Alysson', 'howdy', 'gmail', 'com', 'I just wanna talk to ya.');
-
 </script>
 ```
