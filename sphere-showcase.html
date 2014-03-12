@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<title>Leap Sphere - RuPy2k13</title>
+        <link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/rez.css">
+	</head>
+	<body>
+		<div id="info">
+      <div id="leadHelp">
+        <img src="img/logo-rupy.png" width="70" height="70">
+        <h1>Leap<b>.</b>Sphere</h1>
+        <h3>A small demo for <a href="http://www.rupy.com.br">RuPy 2kGALO</a> inspired by <b>threeleapcontrols</b>, <b>CSS 3D</b> &amp; <a href="http://leapmotion.com">Leap</a> Controls for <a href="http://threejs.org">Three.js</a></h3>
+        <hr>  
+      </div>
+      <div id="helper">
+        <h4>Camera &amp; Object Controls</h4>
+        <ul>
+          <li><b>ROTATING</b> ➞ 1 Hand &amp; 2-3 Fingers</li>
+          <li><b>ZOOMING/SCALING</b> ➞ 1 Hand &amp; 4-5 Fingers</li>
+          <li><b>PANNING</b> ➞ 2 Hands &amp; 6-10 Fingers</li>
+        </ul>
+        <h4>Switch between Camera &amp; Object Mode</h4>
+        <ul>
+          <li><b>SWITCHING</b> ➞ 1 Hand &amp; 1 Finger &amp; Choose object or nothing</li>
+        </ul>
+        <hr>
+      </div>
+    </div>
+
+
+		<div id="container">
+            <div style="overflow: hidden; transform-style: preserve-3d; perspective-origin: 50% 50%; width: 1920px; height: 962px; position: absolute; perspective: 626.851px;">
+                <div style="transform-style: preserve-3d; width: 1920px; height: 962px; transform: translate3d(0px, 0px, 626.851px) matrix3d(-0.928828, -0.334252, -0.159854, 0, 0.102544, -0.646501, 0.75599, 0, 0.356037, -0.685792, -0.634765, 0, -0.0000252865, 0.0000560306, -1800, 1) translate3d(960px, 481px, 0px);">
+                <!--
+                    <div style="background-color: rgba(0, 127, 127, 0.73); position: absolute; transform-style: preserve-3d; transform: translate3d(-50%, -50%, 0px) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1340, -300, 0, 1);" class="element">
+                        <div class="number">118</div>
+                        <div class="symbol">Uuo</div>
+                        <div class="details">Ununoctium<br>(294)</div>
+                    </div>
+                -->
+
+           
+                </div>
+            </div>
+        </div>
+
+		<div id="menu">
+			<button id="table">TABLE</button>
+			<button id="sphere">SPHERE</button>
+			<button id="helix">HELIX</button>
+			<button id="grid">GRID</button>
+        </div>
+
+        <script src="js/three.js"></script>
+        <script src="js/tween.js"></script>
+        <script src="js/TrackballControls.js"></script>
+        <script src="js/CSS3DRenderer.js"></script>
+        <script src="js/functions.js"></script>
+        <script type="text/javascript" src="js/leap.min.js"></script>
+        <script type="text/javascript" src="LeapCameraControls.js"></script>
+        <script type="text/javascript" src="LeapObjectControls.js"></script>
+    </body>
+</html>
