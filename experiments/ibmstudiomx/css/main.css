@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'REZRegular';
+    src: url('rez.eot');
+    src: url('rez.eot') format('embedded-opentype'),
+         url('rez.woff') format('woff'),
+         url('rez.ttf') format('truetype'),
+         url('rez.svg#REZRegular') format('svg');
+}
+
+html, body {
+				height: 100%;
+			}
+
+			body {
+				background-color: #f7f7f7;
+				margin: 0;
+				font-family: Arial;
+				overflow: hidden;
+				border: 6px solid #000;
+			}
+
+			a {
+				color: #ffffff;
+			}
+			#leadHelp {
+			  position: fixed;
+			  top: 20px;
+			  left: 20px;
+			  width: 300px;
+			  height: 148px;
+			  padding: 0px 20px;
+			  background: rgba(174,174,174,.35);
+			  margin-left: -15px;
+			  font-family: 'Fredoka One', cursive;
+			  text-align: left;
+			}
+
+			#leadHelp img {
+			  position: absolute;
+			  right: -15px;
+			  top: -10px;
+			}
+
+			#leadHelp hr {
+			  background: #000;
+			  border: 0;
+			  margin-left: -20px;
+			  display: inline-block;
+			  width: 340px;
+			}
+
+			#helper {
+			  position: fixed;
+			  bottom: 20px;
+			  right: 6px;
+			  width: 230px;
+			  height: 278px;
+			  padding: 0 20px 0 0;
+			  background: rgba(174,174,174,.35);
+			  font-family: 'Fredoka One', cursive;
+			  text-align: left;
+			}
+
+			#helper hr {
+			  margin-right: -20px;
+			}
+			h3,  ul {font-weight: normal;color: #333}
+			h1 { margin: 0 0 0 -20px;}
+			h4 { margin: 0;}
+			h1, h4 {
+			  display: inline-block;
+			  width: 100%;
+			  background: #000;
+			  color: #fff;
+			  text-transform: uppercase;
+			  padding: 10px 20px
+			}
+			ul {
+				  list-style-type: none;
+				  margin-left: -20px;
+				}
+			a {
+				color: #ff0000;
+			}
+			hr {
+			  background: #000;
+			  border: 0;
+			  margin-right: -10px;
+			}
+			.prodTitle, .prodPriceTo, .prodInstallment, .prodRating {
+				text-align: left;
+			}
+			.prodTitle {
+				text-transform: uppercase;
+				font-size: 23px
+			}
+			.prodPriceTo, .prodInstallment, .prodRating {
+				color: #000; 
+				font-family: 'Fredoka One', cursive;
+			}
+			#info {
+				position: absolute;
+				width: 100%;
+				color: #ffffff;
+				padding: 5px;
+				font-family: Monospace;
+				font-size: 13px;
+				font-weight: bold;
+				text-align: center;
+				z-index: 1;
+			}
+
+			#menu {
+				position: absolute;
+				bottom: 20px;
+				width: 100%;
+				text-align: center;
+			}
+
+			.element {
+				width: 180px;
+				height: 346px;
+				box-shadow: 0px 0px 20px rgba(255,0,0,0.3);
+				border: 1px solid rgba(255,170,170,0.3);
+				cursor: default;
+				background: white !important;
+			}
+
+			.element:hover {
+				box-shadow: 0px 0px 20px rgba(255,0,0,0.75);
+				border: 2px solid rgba(255,170,170,0.75);
+			}
+
+				.element .number {
+					position: absolute;
+					top: 20px;
+					right: 20px;
+					font-size: 20px;
+					color: rgba(127,255,255,0.75);
+				}
+
+				.element .symbol {
+					position: absolute;
+					top: 40px;
+					width: 100%;
+					font-size: 70px;
+					text-align: center;
+					color: rgba(255,255,255,0.75);
+					font-weight: bold;
+
+					-webkit-filter: drop-shadow(0px 0px 20px rgba(0,255,255,0.95));
+					-moz-filter: drop-shadow(0px 0px 20px rgba(0,255,255,0.95));
+					-o-filter: drop-shadow(0px 0px 20px rgba(0,255,255,0.95));
+					-ms-filter: drop-shadow(0px 0px 20px rgba(0,255,255,0.95));
+					filter: drop-shadow(0px 0px 20px rgba(0,255,255,0.95));
+				}
+
+				.element .details {
+					position: absolute;
+					top: 230px;
+					width: 165px;
+					font-size: 18px;
+					text-align: center;
+					color: red;
+					height: 100px;
+					background: rgba(255, 252, 0, .7);
+					font-family: 'REZRegular';
+					text-transform: capitalize;
+					padding:8px;
+				}
+				.element .details p {
+					margin: 0;
+				}
+				.element .details > img {
+					position: absolute;
+    				top: -22px;
+				}
+
+			button {
+				color: rgba(255, 0, 0, 1);
+				background: transparent;
+				outline: 1px solid rgba(255, 0, 0, 1);
+				border: 0px;
+				padding: 5px 10px;
+				cursor: pointer;
+			}
+			#table, #helix, #grid {
+				display: none;
+			}
+			button:hover {
+				background-color: rgba(255,0,0,0.5);
+				color: white;
+			}
+			button:active {
+				color: #000000;
+				background-color: rgba(255,0,0,0.5);
+			}

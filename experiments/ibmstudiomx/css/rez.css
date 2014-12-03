@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'REZRegular';
+    src: url('rez.eot');
+    src: url('rez.eot') format('embedded-opentype'),
+         url('rez.woff') format('woff'),
+         url('rez.ttf') format('truetype'),
+         url('rez.svg#REZRegular') format('svg');
+}

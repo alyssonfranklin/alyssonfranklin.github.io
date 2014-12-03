@@ -1,0 +1,118 @@
+body {
+  font-family: 'Fredoka One', cursive;
+  font-size: 12px;
+  cursor: none;
+  color: #f7f7f7;
+}
+
+h3 {font-weight: normal;}
+h1 { margin: 0 0 0 -20px;}
+h4 { margin: 0;}
+h1, h4 {
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  text-transform: uppercase;
+  padding: 10px 20px
+}
+hr {
+  background: #fff;
+  border: 0;
+  margin-right: -10px;
+}
+
+a, b {color: #ff0000;}
+
+ul {
+  list-style-type: none;
+  margin-left: -20px;
+}
+
+#info {
+  position: absolute;
+  width: 800px;
+  margin-left: -400px;
+  left: 50%;
+  text-align: left;
+  overflow: hidden;
+  z-index: 2;
+}
+
+#container {
+  position: absolute;
+  display: block;
+  height: auto;
+  width: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 5px;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+  z-index: 0;
+}
+
+#leadHelp {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 300px;
+  height: 148px;
+  padding: 0px 20px;
+  background: rgba(247,247,247,.13);
+  margin-left: -15px;
+}
+
+#leadHelp img {
+  position: absolute;
+  right: -15px;
+  top: -10px;
+}
+
+#leadHelp hr {
+  background: #fff;
+  border: 0;
+  margin-left: -20px;
+  display: inline-block;
+  width: 340px;
+}
+
+#helper {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  width: 230px;
+  height: 230px;
+  padding: 0 20px 0 0;
+  background: rgba(247,247,247,.13);
+}
+
+#helper hr {
+  margin-right: -20px;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+#container canvas {
+  background: black;
+}
+
+#cursor {
+  position: absolute;
+  left: -1000px;
+  top: -1000px;
+  z-index: 1;
+  width: 9px;
+  height: 9px;
+  background-color: #ffffff;
+  border-radius: 6px; 
+  -moz-border-radius: 6px; 
+  -webkit-border-radius: 6px;
+  border: 1px solid #ff0000; 
+}
